@@ -1,16 +1,17 @@
-# gemini_recipe_generation
+This is a demo app created for the Google I/O talk "Gemini API and Flutter: Practical, AI-driven apps with Google AI tools"
 
-A new Flutter project.
+Check out the [the prompt we used on Google AI Studio](https://aistudio.google.com/app/prompts/1RsTAt6_N8BPhXbrrd8gSJcdeuYV834kf).
 
-## Getting Started
+## Running the app
 
-This project is a starting point for a Flutter application.
+Before running the app:
+* Get an API key from [ai.google.dev](ai.google.dev).
+* Create a Firebase project, and install the Flutter Firebase CLI, and configure the platforms that you want to run this app on. You can find instructions by following [steps 2-4 of the Get to know Firebase for Flutter](https://firebase.google.com/codelabs/firebase-get-to-know-flutter?hl=en#2) codelab.
 
-A few resources to get you started if this is your first Flutter project:
+Then, pass the API key in with dart define when running the app:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+```bash
+flutter run --dart-define=API_KEY=your_api_key
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
