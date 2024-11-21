@@ -1,5 +1,7 @@
 This is a demo app created for the Google I/O talk "Gemini API and Flutter: Practical, AI-driven apps with Google AI tools"
 
+**NOTE**: This is a snapshot of integrating Gemini at a specific time. This project will not be updated to reflect updates to Gemini or Flutter. For information on integrating Gemini with Flutter, check out the [google_generative_ai](https://pub.dev/packages/google_generative_ai) package.
+
 Check out the [the prompt we used on Google AI Studio](https://aistudio.google.com/app/prompts/1RsTAt6_N8BPhXbrrd8gSJcdeuYV834kf).
 
 ## Running the app
